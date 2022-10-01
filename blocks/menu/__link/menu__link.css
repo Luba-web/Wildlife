@@ -1,0 +1,21 @@
+.menu__link {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 261%;
+
+  color: #F7F7F7;
+
+  text-decoration: none;
+
+  transition: all 0.2s linear;
+}
+
+.menu__link:visited {
+  color: #8F5613;
+}
+
+.menu__link:hover {
+  color: #CD6326;
+
+  transition: all 0.2s linear;
+}
