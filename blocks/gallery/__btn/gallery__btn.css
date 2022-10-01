@@ -1,0 +1,11 @@
+.gallery__btn {
+  display: block;
+
+  background: transparent;
+
+  border: none;
+  cursor: pointer;
+
+  width: 29px;
+  height: 39px;
+}
