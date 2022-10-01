@@ -1,7 +1,11 @@
 .font__Roboto {
-  font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 .font__OpenSans {
-  font-family: 'OpenSans', 'Arial', sans-serif;
+  font-family: "OpenSans", "Arial", sans-serif;
+}
+
+.main {
+  background: #cccccc;
 }
