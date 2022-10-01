@@ -1,0 +1,12 @@
+.menu__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  list-style: none;
+
+  min-width: 480px;
+
+  margin: 0;
+  padding: 0;
+}
