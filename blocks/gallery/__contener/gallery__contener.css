@@ -1,0 +1,8 @@
+.gallery__contener {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 300px;
+  height: 360px;
+  justify-content: flex-end;
+}
