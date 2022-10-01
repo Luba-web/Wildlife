@@ -1,17 +1,17 @@
-.survival__container {
+.footer__container {
   box-sizing: border-box;
 
-  min-height: 780px;
+  display: flex;
+  justify-content: space-between;
 
   max-width: 1440px;
   width: 100%;
 
   margin: 0 auto;
 
-  padding-left: 120px;
-  padding-right: 120px;
+  padding: 120px 150px 120px 150px;
 
-  background-image: url(../../../image/Rectangle.jpg);
+  background-image: url(../../../image/RectangleFooter.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
