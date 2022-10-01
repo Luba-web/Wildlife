@@ -5,7 +5,6 @@
 
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__container/header__container.css");
-@import url("../blocks/header/__container/_dark/header__container_dark.css");
 
 @import url("../blocks/logo/__link/logo__link.css");
 @import url("../blocks/logo/__heading/logo__heading.css");
@@ -16,7 +15,15 @@
 @import url("../blocks/menu/__item/menu__item.css");
 @import url("../blocks/menu/__link/menu__link.css");
 @import url("../blocks/menu/__search/menu__search.css");
-@import url("../blocks/menu/__btn/menu__btn.css");
+
+@import url("../blocks/btn/btn.css");
+@import url("../blocks/btn/_backgroung-none/btn_backgroung-none.css");
+
+@import url("../blocks/survival/__container/survival__container.css");
+@import url("../blocks/survival/__container/_fullscreen/survival__container_fullscreen.css");
+@import url("../blocks/survival/__title/survival__title.css");
+@import url("../blocks/survival/__subtitle/survival__subtitle.css");
+@import url("../blocks/survival/__block/survival__block.css");
 
 @import url("../blocks/subtitle/subtitle.css");
 @import url("../blocks/text/text.css");

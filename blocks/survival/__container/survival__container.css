@@ -1,0 +1,17 @@
+.survival__container {
+  box-sizing: border-box;
+
+  min-height: 780px;
+
+  max-width: 1440px;
+  width: 100%;
+
+  margin: 0 auto;
+
+  padding-left: 120px;
+  padding-right: 120px;
+
+
+  background-image: url(../../../image/Rectangle.jpg);
+  background-size: cover;
+}

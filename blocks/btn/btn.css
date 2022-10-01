@@ -1,0 +1,30 @@
+.btn {
+  height: 50px;
+  width: 120px;
+
+  background-color: #CD6326;
+
+  border: 2px solid #CD6326;
+  border-radius: 5px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+  color: #F7F7F7;
+
+  cursor: pointer;
+
+  transition: all 0.2s linear;
+}
+
+.btn:visited {
+  background-color: #8F5613;
+}
+
+.btn:hover {
+  background-color: #E39128;
+  border: 2px solid #E39128;
+
+  transition: all 0.2s linear;
+}

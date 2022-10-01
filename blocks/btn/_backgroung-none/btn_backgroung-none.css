@@ -1,0 +1,12 @@
+.btn_backgroung-none {
+  background-color: transparent;
+}
+
+.btn_backgroung-none:visited {
+  background-color: #8F5613;
+}
+
+.btn_backgroung-none:hover {
+  background-color: #CD6326;
+  border: 2px solid #CD6326;
+}

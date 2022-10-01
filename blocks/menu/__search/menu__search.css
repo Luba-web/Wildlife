@@ -4,17 +4,17 @@
   height: 23px;
   width: 23px;
 
-  background-image: url(../../../images/Vector.svg);
+  background-image: url(../../../image/Vector.svg);
 
   transition: 0.5s;
 }
 
 .menu__search:visited {
-  background-image: url(../../../images/VectorVisited.svg);
+  background-image: url(../../../image/VectorVisited.svg);
 }
 
 .menu__search:hover {
-  background-image: url(../../../images/VectorActive.svg);
+  background-image: url(../../../image/VectorActive.svg);
 
   transform: scale(1.2);
   transition: 0.5s;
