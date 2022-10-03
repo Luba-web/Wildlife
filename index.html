@@ -48,9 +48,9 @@
         <button type="button" class="btn font-Roboto">Donate</button>
       </article>
     </div>
-    <main class="main">
-      <h2 class="subtitle">Latest articles</h2>
-      <p class="text">Breaking news from the wild</p>
+    <main class="main font-OpenSans">
+      <h2 class="main__title">Latest articles</h2>
+      <p class="main__subtitle">Breaking news from the wild</p>
       <section class="gallery">
         <div class="gallery__block">
           <button
@@ -64,7 +64,7 @@
             <img
               id="deer"
               src="./image/deer.jpg"
-              alt="лось"
+              alt="squirrel"
               class="gallery__img"
             />
           </div>
@@ -74,7 +74,7 @@
             <img
               id="squirrel"
               src="./image/squirrel.jpg"
-              alt="белка"
+              alt="squirrel"
               class="gallery__img"
             />
           </div>
@@ -84,7 +84,7 @@
             <img
               id="bird"
               src="./image/bird.jpg"
-              alt="дятел"
+              alt="bird"
               class="gallery__img"
             />
           </div>
@@ -95,7 +95,20 @@
           ></button>
         </div>
       </section>
-      <form></form>
+      <section class="mailing">
+        <h3 class="mailing__title font-OpenSans">
+          Get notified about new amazing articles
+        </h3>
+        <form name="mailing" class="mailing__form font-Roboto">
+          <input
+            type="email"
+            name="email"
+            placeholder="E-mail"
+            class="mailing__email"
+          />
+          <button class="btn btn_radius-send">Send</button>
+        </form>
+      </section>
     </main>
     <footer class="footer__container">
       <a href="#" class="logo__container logo__link">

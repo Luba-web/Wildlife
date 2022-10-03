@@ -1,0 +1,20 @@
+.mailing__email {
+  max-width: 540px;
+  width: 100%;
+
+  box-sizing: border-box;
+  padding-left: 10px;
+
+  background: #cccccc;
+
+  border: #666666 1px solid;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+
+  color: #666666;
+}
