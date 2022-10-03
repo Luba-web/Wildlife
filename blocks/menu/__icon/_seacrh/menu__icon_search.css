@@ -1,0 +1,14 @@
+.menu__icon_search {
+  height: 23px;
+  width: 23px;
+
+  background-image: url(../../../../image/Vector.svg);
+}
+
+.menu__icon_search:visited {
+  background-image: url(../../../../image/VectorVisited.svg);
+}
+
+.menu__icon_search:hover {
+  background-image: url(../../../../image/VectorActive.svg);
+}

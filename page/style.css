@@ -6,6 +6,10 @@
   font-family: "OpenSans", "Arial", sans-serif;
 }
 
+.page {
+  background-color: #333333;
+}
+
 .main {
   background: #cccccc;
 }

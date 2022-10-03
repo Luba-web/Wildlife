@@ -1,0 +1,9 @@
+.menu__icon_telegram {
+  background-color: #F7F7F7;
+  border-radius: 50%;
+
+  background-image: url(../../../../image/tg.svg);
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+}

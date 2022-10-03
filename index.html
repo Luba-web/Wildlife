@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="./images/path0_black.svg"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./page/index.css" />
-    <title>Wildlife</title>
-  </head>
 
-  <body>
-    <header class="header header__container header__container_dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./image/path0_black.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="./page/index.css" />
+  <title>Wildlife</title>
+</head>
+
+<body class="page">
+  <div class="survival__container">
+    <header class="header header__container">
       <a href="#" class="logo__container logo__link">
-        <img src="./images/path0.svg" alt="Logo's Wildlife" />
+        <img src="./image/path0.svg" alt="Logo's Wildlife" />
         <h1 class="logo__heading font__Roboto">WILDLIFE</h1>
       </a>
-      <nav class="menu menu__container">
+      <nav class="menu__container">
         <ul class="menu__list font__OpenSans">
           <li class="menu__item">
             <a href="#" class="menu__link">Blog</a>
@@ -28,62 +26,84 @@
             <a href="#" class="menu__link">Contacts</a>
           </li>
           <li class="menu__item">
-            <a href="#" class="menu__search"></a>
+            <a href="#" class="menu__icon menu__icon_search"></a>
           </li>
           <li class="menu__item">
-            <button type="button" class="menu__btn">Sign in</button>
+            <button type="button" class="btn btn_backgroung-none">Sign in</button>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="main">
-      <h2 class="subtitle">Latest articles</h2>
-      <p class="text">Breaking news from the wild</p>
-      <section class="gallery">
-        <div class="gallery__block">
-          <button
-            id="btnArrow"
-            type="button"
-            class="gallery__btn gallery__btn_arrow"
-          ></button>
-          <div class="gallery__contener">
-            <h4 class="gallery__title">Deer</h4>
-            <p class="gallery__text">Naturalist investigation</p>
-            <img
-              id="deer"
-              src="./image/deer.jpg"
-              alt="лось"
-              class="gallery__img"
-            />
-          </div>
-          <div class="gallery__contener">
-            <h4 class="gallery__title">Squirrel</h4>
-            <p class="gallery__text">Kamikaze squirrels</p>
-            <img
-              id="squirrel"
-              src="./image/squirrel.jpg"
-              alt="белка"
-              class="gallery__img"
-            />
-          </div>
-          <div class="gallery__contener">
-            <h4 class="gallery__title">Bird</h4>
-            <p class="gallery__text">Birds Fight club</p>
-            <img
-              id="bird"
-              src="./image/bird.jpg"
-              alt="дятел"
-              class="gallery__img"
-            />
-          </div>
-          <button
-            id="btnArrowBack"
-            type="button"
-            class="gallery__btn gallery__btn_back"
-          ></button>
+    <article class="survival__block">
+      <h2 class="survival__title font__OpenSans">Survival</h2>
+      <p class="survival__subtitle font__OpenSans">What this means is that we exist to help protect our environment and
+        do in numbers
+        of
+        ways. You can save the
+        planet by donation.</p>
+      <button type="button" class="btn font__Roboto">Donate</button>
+    </article>
+  </div>
+  <main class="main">
+    <h2 class="subtitle">Latest articles</h2>
+    <p class="text">Breaking news from the wild</p>
+    <section class="gallery">
+      <div class="gallery__block">
+        <button id="btnArrow" type="button" class="gallery__btn gallery__btn_arrow"></button>
+        <div class="gallery__contener">
+          <h4 class="gallery__title">Deer</h4>
+          <p class="gallery__text">Naturalist investigation</p>
+          <img id="deer" src="./image/deer.jpg" alt="лось" class="gallery__img" />
         </div>
-      </section>
-      <form></form>
-    </main>
-  </body>
+        <div class="gallery__contener">
+          <h4 class="gallery__title">Squirrel</h4>
+          <p class="gallery__text">Kamikaze squirrels</p>
+          <img id="squirrel" src="./image/squirrel.jpg" alt="белка" class="gallery__img" />
+        </div>
+        <div class="gallery__contener">
+          <h4 class="gallery__title">Bird</h4>
+          <p class="gallery__text">Birds Fight club</p>
+          <img id="bird" src="./image/bird.jpg" alt="дятел" class="gallery__img" />
+        </div>
+        <button id="btnArrowBack" type="button" class="gallery__btn gallery__btn_back"></button>
+      </div>
+    </section>
+    <form></form>
+  </main>
+  <footer class="footer__container">
+    <a href="#" class="logo__container logo__link">
+      <img src="./image/path0.svg" alt="Logo's Wildlife" />
+      <h2 class="logo__heading font__Roboto">WILDLIFE</h2>
+    </a>
+
+    <ul class="menu__list menu__container font__OpenSans">
+      <li class="menu__item">
+        <a href="#" class="menu__link">Articles</a>
+      </li>
+      <li class="menu__item">
+        <a href="#" class="menu__link">About us</a>
+      </li>
+      <li class="menu__item">
+        <a href="#" class="menu__link">Learn more</a>
+      </li>
+    </ul>
+
+    <ul class="menu__social-container">
+      <li class="menu__item">
+        <a href="#" class="menu__icon  menu__icon_facebook"></a>
+      </li>
+      <li class="menu__item">
+        <a href="#" class="menu__icon menu__icon_instagram"></a>
+      </li>
+      <li class="menu__item">
+        <a href="#" class="menu__icon menu__icon_pinterest"></a>
+      </li>
+      <li class="menu__item">
+        <a href="#" class="menu__icon menu__icon_telegram"></a>
+      </li>
+    </ul>
+
+  </footer>
+</body>
+
 </html>
