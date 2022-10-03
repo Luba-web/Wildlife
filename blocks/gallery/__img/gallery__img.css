@@ -3,4 +3,10 @@
   right: 0;
   left: 0;
   z-index: 1;
+  transition: 0.5s;
+}
+
+.gallery__img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
 }
