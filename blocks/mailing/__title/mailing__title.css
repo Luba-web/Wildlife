@@ -1,0 +1,11 @@
+.mailing__title {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #333333;
+}
