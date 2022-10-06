@@ -27,6 +27,10 @@
 @import url("../blocks/btn/_backgroung-none/btn_backgroung-none.css");
 @import url("../blocks/btn/_radius-send/btn_radius-send.css");
 
+@import url("../blocks/btn-nav/btn-nav.css");
+@import url("../blocks/btn-nav/_primary/btn-nav_primary.css");
+@import url("../blocks/btn-nav/_opened/btn-nav_opened.css");
+
 @import url("../blocks/survival/__container/survival__container.css");
 @import url("../blocks/survival/__title/survival__title.css");
 @import url("../blocks/survival/__subtitle/survival__subtitle.css");
