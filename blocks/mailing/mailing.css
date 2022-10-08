@@ -1,4 +1,13 @@
 .mailing {
   display: block;
+}
+
+.mailing:nth-child(n) {
   padding: 120px 0;
+}
+
+@media (max-width: 786px) {
+  .mailing:nth-child(n) {
+    padding: 12% 0;
+  }
 }
