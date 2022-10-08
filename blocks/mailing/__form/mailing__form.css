@@ -4,3 +4,14 @@
 
   margin-top: 60px;
 }
+
+@media (max-width: 768px) {
+  .mailing__form {
+    box-sizing: border-box;
+
+    margin-top: 6%;
+
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
