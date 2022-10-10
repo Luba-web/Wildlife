@@ -89,13 +89,16 @@ button:focus {
   height: auto;
 }
 .cardList__btn {
-  --btn-size: 35px;
+  --btn-size: 70px;
   width: var(--btn-size);
   height: var(--btn-size);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   z-index: 100;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 .cardList__btn.btn--left {
   left: -20%;
