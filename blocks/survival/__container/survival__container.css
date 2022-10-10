@@ -3,11 +3,6 @@
 
   min-height: 780px;
 
-  /* max-width: 1440px;
-  width: 100%;
-
-  margin: 0 auto; */
-
   padding-left: 120px;
   padding-right: 120px;
 
@@ -15,4 +10,16 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1270px) {
+  .survival__container {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .survival__container {
+    padding: 10px;
+  }
 }
