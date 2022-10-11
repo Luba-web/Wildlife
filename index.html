@@ -1,191 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="./image/path0_black.svg"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./page/index.css" />
-    <title>Wildlife</title>
-  </head>
 
-  <body class="page">
-    <div class="survival__container">
-      <header class="header header__container">
-        <a href="#" class="logo__container logo__link">
-          <img src="./image/path0.svg" alt="Logo's Wildlife" id="logo" />
-          <h1 class="logo__heading font-Roboto">WILDLIFE</h1>
-        </a>
-        <nav class="menu__container">
-          <ul class="menu__list font-OpenSans">
-            <li class="menu__item">
-              <a href="#" class="menu__link">Blog</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">Contacts</a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__icon menu__icon_search"></a>
-            </li>
-            <li class="menu__item">
-              <button type="button" class="btn btn_backgroung-none">
-                Sign in
-              </button>
-            </li>
-          </ul>
-          <button
-            id="icon-close"
-            class="btn-nav btn-nav_primary btn-nav_opened"
-            type="button"
-          >
-            <img class="" src="./image/close.svg" alt="close button" />
-          </button>
-          <button
-            id="icon-menu"
-            class="btn-nav btn-nav_primary btn-nav_opened"
-            type="button"
-          >
-            <img class="" src="./image/icon-menu.svg" alt="menu button" />
-          </button>
-        </nav>
-      </header>
-      <article class="survival__block">
-        <h2 class="survival__title font-OpenSans">Survival</h2>
-        <p class="survival__subtitle font-OpenSans">
-          What this means is that we exist to help protect our environment and
-          do in numbers of ways. You can save the planet by donation.
-        </p>
-        <button type="button" class="btn font-Roboto">Donate</button>
-      </article>
-    </div>
-    <main class="main font-OpenSans">
-      <section>
-        <h2 class="main__title">Latest articles</h2>
-        <p class="main__subtitle">Breaking news from the wild</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./images/path0_black.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="./page/index.css" />
+  <title>Wildlife</title>
+</head>
 
-        <div class="app">
-          <div class="cardList">
-            <button class="cardList__btn btn--left">
-              <svg class="icon">
-                <use xlink:href="#arrow-left"></use>
-              </svg>
-            </button>
-
-            <div class="cards__wrapper">
-              <div class="card current--card">
-                <div class="card__image">
-                  <img src="./image/deer.jpg" alt="deer" />
-                </div>
-              </div>
-
-              <div class="card next--card">
-                <div class="card__image">
-                  <img src="./image/squirrel.jpg" alt="squirrel" />
-                </div>
-              </div>
-
-              <div class="card previous--card">
-                <div class="card__image">
-                  <img src="./image/bird.jpg" alt="bird" />
-                </div>
-              </div>
-            </div>
-
-            <button class="cardList__btn btn--right">
-              <svg class="icon">
-                <use xlink:href="#arrow-right"></use>
-              </svg>
-            </button>
-          </div>
-
-          <div class="infoList">
-            <div class="info__wrapper font-OpenSans">
-              <div class="info current--info">
-                <h4 class="text location">Deer</h4>
-                <p class="text description">Naturalist investigation</p>
-              </div>
-
-              <div class="info next--info">
-                <h4 class="text location">Squirrel</h4>
-                <p class="text description">Kamikaze squirrels</p>
-              </div>
-
-              <div class="info previous--info">
-                <h4 class="text location">Bird</h4>
-                <p class="text description">Birds Fight club</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="loading__wrapper">
-          <div class="loader--text">Loading...</div>
-          <div class="loader">
-            <span></span>
-          </div>
-        </div>
-
-        <svg class="icons" style="display: none">
-          <symbol
-            id="arrow-left"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512"
-          >
-            <polyline
-              points="328 112 184 256 328 400"
-              style="
-                fill: none;
-                stroke: #666666;
-                stroke-linecap: round;
-                stroke-linejoin: round;
-                stroke-width: 48px;
-              "
-            />
-          </symbol>
-          <symbol
-            id="arrow-right"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512"
-          >
-            <polyline
-              points="184 112 328 256 184 400"
-              style="
-                fill: none;
-                stroke: #666666;
-                stroke-linecap: round;
-                stroke-linejoin: round;
-                stroke-width: 48px;
-              "
-            />
-          </symbol>
-        </svg>
-      </section>
-
-      <section class="mailing">
-        <h3 class="mailing__title font-OpenSans">
-          Get notified about new amazing articles
-        </h3>
-        <form name="mailing" class="mailing__form font-Roboto">
-          <input
-            type="email"
-            name="email"
-            placeholder="E-mail"
-            class="mailing__email"
-          />
-          <button class="btn btn_radius-send">Send</button>
-        </form>
-      </section>
-    </main>
-    <footer class="footer__container">
-      <a href="#" class="logo__container logo__link">
-        <img src="./image/path0.svg" alt="Logo's Wildlife" />
-        <h2 class="logo__heading font-Roboto">WILDLIFE</h2>
+<body class="page">
+  <div class="survival">
+    <header class="header">
+      <a href="#" class="logo logo_link">
+        <img src="./images/path0.svg" alt="Logo's Wildlife" id="logo" />
+        <h1 class="logo__heading font-Roboto">WILDLIFE</h1>
       </a>
+      <nav class="menu">
+        <ul class="menu__list font-OpenSans">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Blog</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Contacts</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__icon menu__icon_search"></a>
+          </li>
+          <li class="menu__item">
+            <button type="button" class="btn btn_backgroung-none">
+              Sign in
+            </button>
+          </li>
+        </ul>
+        <button id="icon-close" class="btn-nav btn-nav_primary btn-nav_opened" type="button">
+          <img class="" src="./images/close.svg" alt="close button" />
+        </button>
+        <button id="icon-menu" class="btn-nav btn-nav_primary btn-nav_opened" type="button">
+          <img class="" src="./images/icon-menu.svg" alt="menu button" />
+        </button>
+      </nav>
+    </header>
+    <article class="survival__block">
+      <h2 class="survival__title font-OpenSans">Survival</h2>
+      <p class="survival__subtitle font-OpenSans">
+        What this means is that we exist to help protect our environment and
+        do in numbers of ways. You can save the planet by donation.
+      </p>
+      <button type="button" class="btn font-Roboto">Donate</button>
+    </article>
+  </div>
 
-      <ul class="menu__list menu__container font-OpenSans">
+  <main class="main font-OpenSans">
+    <section>
+      <h2 class="main__title">Latest articles</h2>
+      <p class="main__subtitle">Breaking news from the wild</p>
+
+      <div class="app">
+        <div class="cardList">
+          <button class="cardList__btn btn--left">
+            <svg class="icon">
+              <use xlink:href="#arrow-left"></use>
+            </svg>
+          </button>
+
+          <div class="cards__wrapper">
+            <div class="card current--card">
+              <div class="card__image">
+                <img src="./images/deer.jpg" alt="deer" />
+              </div>
+            </div>
+
+            <div class="card next--card">
+              <div class="card__image">
+                <img src="./images/squirrel.jpg" alt="squirrel" />
+              </div>
+            </div>
+
+            <div class="card previous--card">
+              <div class="card__image">
+                <img src="./images/bird.jpg" alt="bird" />
+              </div>
+            </div>
+          </div>
+
+          <button class="cardList__btn btn--right">
+            <svg class="icon">
+              <use xlink:href="#arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="infoList">
+          <div class="info__wrapper font-OpenSans">
+            <div class="info current--info">
+              <h4 class="text location">Deer</h4>
+              <p class="text description">Naturalist investigation</p>
+            </div>
+
+            <div class="info next--info">
+              <h4 class="text location">Squirrel</h4>
+              <p class="text description">Kamikaze squirrels</p>
+            </div>
+
+            <div class="info previous--info">
+              <h4 class="text location">Bird</h4>
+              <p class="text description">Birds Fight club</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="loading__wrapper">
+        <div class="loader--text">Loading...</div>
+        <div class="loader">
+          <span></span>
+        </div>
+      </div>
+
+      <svg class="icons" style="display: none">
+        <symbol id="arrow-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <polyline points="328 112 184 256 328 400" style="
+                fill: none;
+                stroke: #666666;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 48px;
+              " />
+        </symbol>
+        <symbol id="arrow-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <polyline points="184 112 328 256 184 400" style="
+                fill: none;
+                stroke: #666666;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 48px;
+              " />
+        </symbol>
+      </svg>
+    </section>
+
+    <section class="mailing">
+      <h3 class="mailing__title font-OpenSans">
+        Get notified about new amazing articles
+      </h3>
+      <form name="mailing" class="mailing__form font-Roboto">
+        <input type="email" name="email" placeholder="E-mail" class="mailing__email" />
+        <button class="btn btn_radius-send">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <a href="#" class="logo logo_link">
+      <img src="./images/path0.svg" alt="Logo's Wildlife" />
+      <h2 class="logo__heading font-Roboto">WILDLIFE</h2>
+    </a>
+
+    <div class="menu">
+      <ul class="menu__list menu__list_footer font-OpenSans">
         <li class="menu__item">
           <a href="#" class="menu__link">Articles</a>
         </li>
@@ -196,7 +168,9 @@
           <a href="#" class="menu__link">Learn more</a>
         </li>
       </ul>
+    </div>
 
+    <div class="menu menu_footer">
       <ul class="menu__social-container">
         <li class="menu__item">
           <a href="#" class="menu__icon menu__icon_facebook"></a>
@@ -211,11 +185,13 @@
           <a href="#" class="menu__icon menu__icon_telegram"></a>
         </li>
       </ul>
-    </footer>
+    </div>
+  </footer>
 
-    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
 
-    <script src="./scripts/slider.js"></script>
-  </body>
+  <script src="./scripts/slider.js"></script>
+</body>
+
 </html>

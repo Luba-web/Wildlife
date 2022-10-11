@@ -14,7 +14,13 @@
 @media screen and (max-width: 820px) {
   .menu__list {
     flex-direction: column;
-    margin: 0 auto;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu__list {
+    min-width: 360px;
   }
 }
 

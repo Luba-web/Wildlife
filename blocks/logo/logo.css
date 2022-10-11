@@ -1,4 +1,4 @@
-.logo__container {
+.logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +9,7 @@
   transition: opacity 0.1s linear;
 }
 
-.logo__container:hover {
+.logo:hover {
   opacity: 0.3;
 
   transition: opacity 0.1s linear;

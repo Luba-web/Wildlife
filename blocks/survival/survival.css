@@ -1,25 +1,27 @@
-.survival__container {
+.survival {
   box-sizing: border-box;
 
   min-height: 780px;
 
-  padding-left: 120px;
-  padding-right: 120px;
-
-  background-image: url(../../../image/Rectangle.jpg);
+  background-image: url(../../../images/Rectangle.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+.survival:nth-child(n) {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
 @media screen and (max-width: 1270px) {
-  .survival__container {
+  .survival:nth-child(n) {
     padding: 40px;
   }
 }
 
 @media screen and (max-width: 340px) {
-  .survival__container {
+  .survival:nth-child(n) {
     padding: 10px;
   }
 }
