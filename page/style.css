@@ -1,0 +1,22 @@
+.font-Roboto {
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+.font-OpenSans {
+  font-family: "OpenSans", "Arial", sans-serif;
+}
+
+.page {
+  box-sizing: border-box;
+
+  max-width: 1440px;
+  width: 100%;
+
+  margin: 0 auto;
+
+  background-color: #333333;
+}
+
+.main {
+  background: #cccccc;
+}

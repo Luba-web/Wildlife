@@ -1,0 +1,16 @@
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 240px;
+  width: 100%;
+
+  transition: opacity 0.1s linear;
+}
+
+.logo:hover {
+  opacity: 0.3;
+
+  transition: opacity 0.1s linear;
+}

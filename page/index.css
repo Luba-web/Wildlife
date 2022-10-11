@@ -1,0 +1,52 @@
+@import url("../vendor/normalize.css");
+
+@import url("../vendor/fonts/font.css");
+@import url("./style.css");
+@import url("../blocks/gsap/gsap.css");
+
+@import url("../blocks/header/header.css");
+
+@import url("../blocks/logo/logo.css");
+@import url("../blocks/logo/_link/logo_link.css");
+@import url("../blocks/logo/__heading/logo__heading.css");
+
+@import url("../blocks/menu/menu.css");
+@import url("../blocks/menu/_footer/menu_footer.css");
+@import url("../blocks/menu/__list/menu__list.css");
+@import url("../blocks/menu/__list/_footer/menu__list_footer.css");
+@import url("../blocks/menu/__item/menu__item.css");
+@import url("../blocks/menu/__link/menu__link.css");
+@import url("../blocks/menu/__icon/menu__icon.css");
+@import url("../blocks/menu/__social-container/menu__social-container.css");
+@import url("../blocks/menu/__icon/_seacrh/menu__icon_search.css");
+@import url("../blocks/menu/__icon/_facebook/menu__icon_facebook.css");
+@import url("../blocks/menu/__icon/_instagram/menu__icon_instagram.css");
+@import url("../blocks/menu/__icon/_pinterest/menu__icon_pinterest.css");
+@import url("../blocks/menu/__icon/_telegram/menu__icon_telegram.css");
+
+@import url("../blocks/btn/btn.css");
+@import url("../blocks/btn/_backgroung-none/btn_backgroung-none.css");
+@import url("../blocks/btn/_radius-send/btn_radius-send.css");
+@import url("../blocks/btn/_gallery/btn_gallery.css");
+
+@import url("../blocks/btn-nav/btn-nav.css");
+@import url("../blocks/btn-nav/_primary/btn-nav_primary.css");
+@import url("../blocks/btn-nav/_opened/btn-nav_opened.css");
+
+@import url("../blocks/survival/survival.css");
+@import url("../blocks/survival/__title/survival__title.css");
+@import url("../blocks/survival/__subtitle/survival__subtitle.css");
+@import url("../blocks/survival/__block/survival__block.css");
+
+@import url("../blocks/main/__title/main__title.css");
+@import url("../blocks/main/__subtitle/main__subtitle.css");
+
+@import url("../blocks/subtitle/subtitle.css");
+@import url("../blocks/text/text.css");
+
+@import url("../blocks/mailing/mailing.css");
+@import url("../blocks/mailing/__email/mailing__email.css");
+@import url("../blocks/mailing/__form/mailing__form.css");
+@import url("../blocks/mailing/__title/mailing__title.css");
+
+@import url("../blocks/footer/footer.css");

@@ -1,0 +1,23 @@
+.mailing__title {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #333333;
+}
+
+@media (max-width: 800px) {
+  .mailing__title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mailing__title {
+    font-size: 21px;
+  }
+}

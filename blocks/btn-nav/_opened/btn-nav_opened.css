@@ -1,0 +1,5 @@
+.btn-nav_opened {
+  /* visibility: hidden; */
+  display: none;
+  transition: visibility 0.2s, opacity 0.2s linear;
+}

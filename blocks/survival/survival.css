@@ -1,0 +1,27 @@
+.survival {
+  box-sizing: border-box;
+
+  min-height: 780px;
+
+  background-image: url(../../../images/Rectangle.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.survival:nth-child(n) {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+@media screen and (max-width: 1270px) {
+  .survival:nth-child(n) {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .survival:nth-child(n) {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,38 @@
+.footer {
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-image: url(../../../images/RectangleFooter.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer:nth-child(n) {
+  padding: 120px 150px;
+}
+
+@media screen and (max-width: 1270px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer:nth-child(n) {
+    padding-top: 120px 100px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .footer:nth-child(n) {
+    padding: 100px 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer:nth-child(n) {
+    padding: 60px 10px;
+  }
+}
