@@ -6,3 +6,10 @@
 
   padding-top: 20px;
 }
+
+@media screen and (max-width: 820px) {
+  .header__container {
+    flex-direction: column;
+    padding-top: 0;
+  }
+}

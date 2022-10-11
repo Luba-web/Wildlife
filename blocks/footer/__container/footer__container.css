@@ -4,15 +4,28 @@
   display: flex;
   justify-content: space-between;
 
-  /* max-width: 1440px;
-  width: 100%;
-
-  margin: 0 auto; */
-
   padding: 120px 150px 120px 150px;
 
   background-image: url(../../../image/RectangleFooter.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1270px) {
+  .footer__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .footer__container {
+    padding: 100px 40px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .footer__container {
+    padding: 60px 10px;
+  }
 }
