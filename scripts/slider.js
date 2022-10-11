@@ -7,7 +7,6 @@ const buttons = {
   next: document.querySelector(".btn--right"),
 };
 const cardsContainerEl = document.querySelector(".cards__wrapper");
-const appBgContainerEl = document.querySelector(".app__bg");
 
 const cardInfosContainerEl = document.querySelector(".info__wrapper");
 
@@ -20,10 +19,6 @@ function swapCards(direction) {
   const previousCardEl = cardsContainerEl.querySelector(".previous--card");
   const nextCardEl = cardsContainerEl.querySelector(".next--card");
 
-  const currentBgImageEl = appBgContainerEl.querySelector(".current--image");
-  const previousBgImageEl = appBgContainerEl.querySelector(".previous--image");
-  const nextBgImageEl = appBgContainerEl.querySelector(".next--image");
-
   changeInfo(direction);
   swapCardsClass();
 
@@ -34,39 +29,22 @@ function swapCards(direction) {
     previousCardEl.classList.remove("previous--card");
     nextCardEl.classList.remove("next--card");
 
-    currentBgImageEl.classList.remove("current--image");
-    previousBgImageEl.classList.remove("previous--image");
-    nextBgImageEl.classList.remove("next--image");
-
     currentCardEl.style.zIndex = "50";
-    currentBgImageEl.style.zIndex = "-2";
 
     if (direction === "right") {
       previousCardEl.style.zIndex = "20";
       nextCardEl.style.zIndex = "30";
 
-      nextBgImageEl.style.zIndex = "-1";
-
       currentCardEl.classList.add("previous--card");
       previousCardEl.classList.add("next--card");
       nextCardEl.classList.add("current--card");
-
-      currentBgImageEl.classList.add("previous--image");
-      previousBgImageEl.classList.add("next--image");
-      nextBgImageEl.classList.add("current--image");
     } else if (direction === "left") {
       previousCardEl.style.zIndex = "30";
       nextCardEl.style.zIndex = "20";
 
-      previousBgImageEl.style.zIndex = "-1";
-
       currentCardEl.classList.add("next--card");
       previousCardEl.classList.add("current--card");
       nextCardEl.classList.add("previous--card");
-
-      currentBgImageEl.classList.add("next--image");
-      previousBgImageEl.classList.add("current--image");
-      nextBgImageEl.classList.add("previous--image");
     }
   }
 }
