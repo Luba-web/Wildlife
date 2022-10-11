@@ -26,6 +26,7 @@
 @import url("../blocks/btn/btn.css");
 @import url("../blocks/btn/_backgroung-none/btn_backgroung-none.css");
 @import url("../blocks/btn/_radius-send/btn_radius-send.css");
+@import url("../blocks/btn/_gallery/btn_gallery.css");
 
 @import url("../blocks/btn-nav/btn-nav.css");
 @import url("../blocks/btn-nav/_primary/btn-nav_primary.css");
